@@ -1,0 +1,11 @@
+{
+  "extends": "@veniti/typescript-config/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@hooks/*": ["../../packages/ui/src/*"]
+    },
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

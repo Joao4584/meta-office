@@ -1,0 +1,5 @@
+{
+  "extends": "@project/config-typescript",
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
